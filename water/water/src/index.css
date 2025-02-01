@@ -1,0 +1,68 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(6, 40px);
+    justify-content: center;
+    gap: 5px;
+}
+
+.number {
+    background-color: #4DB7FF;
+}
+
+button {
+    border: 1px solid black;
+    font-size: 2rem;
+    font-family: "Patua One", "Arial";
+}
+
+.operation {
+    background-color: #F5FF4D;
+}
+
+.grid-item10 {
+    background-color: #FF4D53;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.result {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #FFD04D;
+    border: 1px solid black;
+}
+
+#result {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2px;
+    font-family: "Patua One", "Arial";
+}
+
+.container {
+    background-color: #9AA3B1;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.patua-one-regular {
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:active {
+    background-color: black;
+}
